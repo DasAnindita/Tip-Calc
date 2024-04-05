@@ -217,12 +217,194 @@
     border-style: none;
     margin-left: 20px;
     margin-top: 220px;
-    background-color: hsl(184, 29%, 38%);
+    background-color: hsl(172, 67%, 45%);
     color: hsl(183, 100%, 15%);
     font-size: 12px;
     font-weight: 700;
   
   }
+
+  .input::placeholder{
+    color: hsl(183, 100%, 15%);
+   
+  }
+
+  .input-input::placeholder{
+    color: hsl(183, 100%, 15%);
+  }
+  @media only screen and (max-width: 600px) {
+  
+    .container{
+      width: 80%;
+      height: 600px;
+      margin-left: 52px;
+      margin-top: 90px;
+    }
+
+    .container1{
+     
+      margin-top: 270px;
+      width: 90%;
+      height: 250px;
+      margin-left: 20px;
+    }
+    .reset{
+      margin-top: 150px;
+      height: 40px;
+      background-color: hsl(172, 67%, 45%);
+      font-size: 20px;
+    }
+
+    .input{
+      width:70%;
+    }
+    .input-input{
+      width:70%;
+    }
+    .header{
+      margin-top: -55px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+  
+  .container{
+    width: 100%;
+    height: 600px;
+    margin-left: 52px;
+    margin-top: 90px;
+  }
+
+  .container1{
+   
+    margin-top: 270px;
+    width: 90%;
+    height: 250px;
+    margin-left: 20px;
+  }
+  .reset{
+    margin-top: 150px;
+    height: 40px;
+    background-color: hsl(172, 67%, 45%);
+    font-size: 20px;
+  }
+
+  .input{
+    width:70%;
+  }
+  .input-input{
+    width:70%;
+  }
+  .header{
+    margin-top: -55px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  
+  .container{
+    width: 90%;
+    height: 500px;
+    margin-left: 52px;
+    margin-top: 110px;
+  }
+
+  .container1{
+  
+    width: 45%;
+    height: 450px;
+    
+  }
+  .reset{
+    margin-top: 330px;
+    margin-left: 30px;
+    height: 40px;
+    background-color: hsl(172, 67%, 45%);
+    font-size: 20px;
+  }
+
+  .input{
+    width:40%;
+  }
+  .input-input{
+    width:40%;
+  }
+  .header{
+    margin-top: -55px;
+  }
+
+  .amount{
+    font-size: 30px;
+    margin-left: 250px;
+  }
+
+  .total-per-ppl{
+    font-size: 40px;
+    margin-left: 250px;
+  }
+
+  .Tip-txt{
+    font-size: 15px;
+  }
+
+  .per-ppl{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .container{
+    width: 90%;
+    height: 500px;
+    margin-left: 52px;
+    margin-top: 110px;
+  }
+
+  .container1{
+  
+    width: 50%;
+    height: 450px;
+    margin-left: 350px;
+  }
+  .reset{
+    margin-top: 330px;
+    margin-left: 30px;
+    height: 40px;
+    background-color: hsl(172, 67%, 45%);
+    font-size: 20px;
+  }
+
+  .input{
+    width:35%;
+  }
+  .input-input{
+    width:35%;
+  }
+  .header{
+    margin-top: -55px;
+  }
+
+  .amount{
+    font-size: 30px;
+    margin-left: 220px;
+    margin-top: 45px;
+  }
+
+  .total-per-ppl{
+    font-size: 30px;
+    margin-left: 220px;
+    margin-top: 110px;
+  }
+
+  .Tip-txt{
+    font-size: 15px;
+  }
+
+  .per-ppl{
+    font-size: 15px;
+  }
+}
   </style>
 </head>
 <body>
@@ -231,7 +413,7 @@
 
     <div class="grid">
       <p class="bil">Bill</p>
-      <input class="input" type="input" placeholder="$ 0"></input>
+      <input class="input" type="input" placeholder=" $                                                                               0"></input>
       <br><br>
       <p class="tip">Select Tip %</p>
       <div class="tip-tip">
@@ -244,7 +426,7 @@
       </div>
       <br>
     <p class="no-ppl">Number of People </p>
-   <input class="input-input" type="input" placeholder=" 0">  </input>
+    <input class="input-input" type="input" placeholder=" 0">  </input>
    
 
     <div class="container1">
